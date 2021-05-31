@@ -1,13 +1,16 @@
+
 # class-dump-folder[[中文](https://github.com/lengain/class-dump-folder/blob/main/README-Chinese.md)]
 
 Show or dump Mach-O file at current folder
 
-```
-Usage: class-dump-folder [options]
+### Usage
+
+```rest
+class-dump-folder [options]
 where options are:
-        -l        Show all Mach-O file at current path
-        -le        Show unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current path
-        -ld        Dump unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current path
+       -l     Show all Mach-O file at current path
+       -le    Show unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current folder
+       -ld    Dump unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current folder
 ```
 
 ##### Error Handle:
