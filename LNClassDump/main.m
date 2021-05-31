@@ -9,6 +9,7 @@
 #import "LNCommad.h"
 #import "LNClassDump.h"
 void print_usage(void);
+void exe_text(void);
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         if (argc == 1) {
@@ -50,4 +51,8 @@ void print_usage() {
     printf("\t\t-l\t\tShow all Mach-O file at current path\n");
     printf("\t\t-le\t\tShow unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current path\n");
     printf("\t\t-ld\t\tDump unix exe Mach-O file(MH_EXECUTE,MH_DYLIB) at current path\n");
+}
+
+void exe_text() {
+    
 }
